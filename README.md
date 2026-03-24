@@ -38,9 +38,9 @@ To display the results to the doctor and patient, you will run a Streamlit app. 
 To demonstrate this smoothly, you will need two terminals open in VS Code:
 
 Terminal 1 (Backend): Make sure your virtual environment is active, the ESP32S is plugged in, and the model.joblib is ready. Run:
-python main_inference.py
+```python main_inference.py```
 
 Terminal 2 (Frontend): In a separate terminal tab (also with the virtual environment active), run the Streamlit dashboard:
-streamlit run app.py
+```streamlit run app.py```
 
 This will automatically open the web dashboard in your browser. As the patient moves, the ESP32S sends data via serial, main_inference.py predicts the outcome using the Scikit-Learn model, pushes it to Firebase, and app.py updates the UI instantly.
