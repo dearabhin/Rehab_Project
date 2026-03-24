@@ -1,3 +1,5 @@
+This readme is for new app.py, which is for integrating Streamlit + MediaPipe + Firebase
+
 How to run the complete setup:
 
 Ensure your ESP32S is connected and the main_inference.py script (the one using Firebase) is running in your first terminal. This handles the serial data and ML model.
